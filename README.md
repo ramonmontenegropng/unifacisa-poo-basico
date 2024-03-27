@@ -1,2 +1,3 @@
-# unifacisa-poo-basico
-Repositório para alocar os exercícios de Programação Orientada a Objetos Básico
+# Unifacisa - Programar Orientado a Objeto (básico)
+
+Repositório criado para alocar os exercícios e projetos da cadeira de POO Básico.

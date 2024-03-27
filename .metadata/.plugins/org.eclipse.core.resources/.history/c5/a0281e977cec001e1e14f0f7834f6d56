@@ -1,0 +1,32 @@
+package listaExercicio05;
+
+import javax.swing.JOptionPane;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int numeroConta = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o número da conta: "));
+		
+		String nome = JOptionPane.showInputDialog(null, "Digite seu nome: ");
+		
+		int opcao = JOptionPane.showConfirmDialog(null, "Haverá depósito inicial? ");
+		
+		Conta conta = new Conta(numeroConta, nome, 0.0);
+		
+		if (opcao == 0) {
+			
+				double saldo = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira o valor inicial: "));
+				conta.setSaldo(saldo);
+
+		}else if (opcao == 1) {
+			
+			JOptionPane.showConfirmDialog(null, "Os dados da sua conta são: " + conta);
+			
+		}		
+		scanner.close();
+	}
+}

@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+C:\Users\Usuário\Desktop\M6\POO-basico\.metadata\.plugins\org.eclipse.jdt.core
+410112038.index
+7912730.index
+3910866991.index
+1865797976.index
+2574380192.index
+4044518675.index
+2652645561.index
+2249540997.index
+521933887.index
+2004848012.index
+1870061744.index

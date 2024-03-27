@@ -1,0 +1,22 @@
+package listaExercicio04;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Conta conta = new Conta();
+		
+		System.out.println("Insira o número da conta: ");
+		conta.numeroConta = scanner.nextInt();
+		
+		System.out.println("Insira o titular da conta: ");
+		conta.nome = scanner.next();
+		
+		System.out.println("Insira um valor inicial: ");
+		conta.deposito = scanner.nextDouble();
+		
+		scanner.close();
+		
+	}
+}

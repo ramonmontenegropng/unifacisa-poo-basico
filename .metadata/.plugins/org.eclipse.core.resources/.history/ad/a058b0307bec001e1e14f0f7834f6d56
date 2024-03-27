@@ -1,0 +1,16 @@
+package listaExercicio05;
+
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int numeroConta = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o numero: "));
+		numeroConta = scanner.nextInt();
+		
+		scanner.close();
+	}
+}

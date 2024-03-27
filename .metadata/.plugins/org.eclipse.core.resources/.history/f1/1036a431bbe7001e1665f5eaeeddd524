@@ -1,0 +1,16 @@
+package listaExercicio04;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int numeroConta = 0;
+		
+		System.out.println("Insira o número da conta: ");
+		System.out.println(numeroConta);
+		
+		scanner.close();
+	}
+}
